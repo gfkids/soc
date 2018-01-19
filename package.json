@@ -1,0 +1,57 @@
+{
+  "name": "gfk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Личный проект «German For Kids»",
+  "devDependencies": {
+    "autoprefixer": "6.5.3",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.2",
+    "browserify": "^14.4.0",
+    "css-mqpacker": "^5.0.1",
+    "del": "^2.2.2",
+    "editorconfig-cli": "^0.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "gulp-uncss": "^1.0.6",
+    "gulp-watch": "^4.3.11",
+    "node-normalize-scss": "^1.4.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0",
+    "vueify-insert-css": "^1.0.0",
+    "browser": {
+      "vue": "vue/dist/vue.common.js"
+    }
+  },
+
+
+
+  "scripts": {
+    "test": "editorconfig-cli",
+    "build": "gulp build",
+    "start": "npm run build && gulp update",
+    "serve": "gulp serve"
+  },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "6.7"
+  }
+}

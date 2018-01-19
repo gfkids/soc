@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://germanforkids.online/</loc>
+  <lastmod>2017-11-05T17:30:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <video:video>
+    <video:content_loc>
+      https://storage.googleapis.com/webfundamentals-assets/videos/chrome.mp4
+    </video:content_loc>
+
+    <video:thumbnail_loc>
+      http://germanforkids.online/img/poster.jpg
+    </video:thumbnail_loc>
+    <video:title>Видеофрагмент урока по немецкому языку</video:title>
+    <video:description>
+      Видеофрагмент урока по немецкому языку для детей по скайпу.
+    </video:description>
+  </video:video>
+</url>
+<url>
+  <loc>http://germanforkids.online/material.html</loc>
+  <lastmod>2017-11-05T17:30:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://germanforkids.online/blog.html</loc>
+  <lastmod>2017-11-05T17:30:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://germanforkids.online/index.html</loc>
+  <lastmod>2017-11-05T17:30:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
